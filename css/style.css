@@ -82,7 +82,7 @@ h1
     padding-bottom: 20px;
 }
 
-.card button
+.card-button
 {
     padding: 20px 35px;
     background-color: var(--very-light-gray);
@@ -92,6 +92,45 @@ h1
     margin-top: 10px;
     transition: all .3s ease-in-out;
     cursor: pointer;
+}
+
+.btn-1
+{
+    color: var(--bright-orange);
+    border: 1px solid var(--bright-orange);
+}
+
+.btn-2
+{
+    color: var(--dark-cyan);
+    border: 1px solid var(--dark-cyan);
+}
+
+.btn-3
+{
+    color: var(--very-dark-cyan);
+    border: 1px solid var(--very-dark-cyan);
+}
+
+.btn-1:hover
+{
+    background-color: var(--bright-orange);
+    border: 1px solid var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+.btn-2:hover
+{
+    background-color: var(--dark-cyan);
+    border: 1px solid var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+.btn-3:hover
+{
+    background-color: var(--very-dark-cyan);
+    border: 1px solid var(--transparent-white);
+    color: var(--transparent-white);
 }
 
 
